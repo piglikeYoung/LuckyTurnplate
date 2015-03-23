@@ -14,6 +14,9 @@
 		7DC1D1AE1ABCFE5200D922C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DC1D1AD1ABCFE5200D922C8 /* Images.xcassets */; };
 		7DC1D1B11ABCFE5200D922C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DC1D1AF1ABCFE5200D922C8 /* LaunchScreen.xib */; };
 		7DC1D1BD1ABCFE5200D922C8 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC1D1BC1ABCFE5200D922C8 /* ____Tests.m */; };
+		7DC1D1C81ABCFE8500D922C8 /* JHWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC1D1C71ABCFE8500D922C8 /* JHWheel.m */; };
+		7DC1D1CA1ABCFE9C00D922C8 /* JHWheel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DC1D1C91ABCFE9C00D922C8 /* JHWheel.xib */; };
+		7DC1D1CD1ABD030900D922C8 /* JHWheelButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC1D1CC1ABD030900D922C8 /* JHWheelButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		7DC1D1B61ABCFE5200D922C8 /* 幸运转盘Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "幸运转盘Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DC1D1BB1ABCFE5200D922C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DC1D1BC1ABCFE5200D922C8 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		7DC1D1C61ABCFE8500D922C8 /* JHWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHWheel.h; sourceTree = "<group>"; };
+		7DC1D1C71ABCFE8500D922C8 /* JHWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHWheel.m; sourceTree = "<group>"; };
+		7DC1D1C91ABCFE9C00D922C8 /* JHWheel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHWheel.xib; sourceTree = "<group>"; };
+		7DC1D1CB1ABD030900D922C8 /* JHWheelButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHWheelButton.h; sourceTree = "<group>"; };
+		7DC1D1CC1ABD030900D922C8 /* JHWheelButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHWheelButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +96,11 @@
 				7DC1D1AA1ABCFE5200D922C8 /* Main.storyboard */,
 				7DC1D1AD1ABCFE5200D922C8 /* Images.xcassets */,
 				7DC1D1AF1ABCFE5200D922C8 /* LaunchScreen.xib */,
+				7DC1D1C61ABCFE8500D922C8 /* JHWheel.h */,
+				7DC1D1C71ABCFE8500D922C8 /* JHWheel.m */,
+				7DC1D1C91ABCFE9C00D922C8 /* JHWheel.xib */,
+				7DC1D1CB1ABD030900D922C8 /* JHWheelButton.h */,
+				7DC1D1CC1ABD030900D922C8 /* JHWheelButton.m */,
 				7DC1D1A01ABCFE5200D922C8 /* Supporting Files */,
 			);
 			path = "幸运转盘";
@@ -202,6 +215,7 @@
 				7DC1D1AC1ABCFE5200D922C8 /* Main.storyboard in Resources */,
 				7DC1D1B11ABCFE5200D922C8 /* LaunchScreen.xib in Resources */,
 				7DC1D1AE1ABCFE5200D922C8 /* Images.xcassets in Resources */,
+				7DC1D1CA1ABCFE9C00D922C8 /* JHWheel.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +236,8 @@
 				7DC1D1A91ABCFE5200D922C8 /* ViewController.m in Sources */,
 				7DC1D1A61ABCFE5200D922C8 /* AppDelegate.m in Sources */,
 				7DC1D1A31ABCFE5200D922C8 /* main.m in Sources */,
+				7DC1D1CD1ABD030900D922C8 /* JHWheelButton.m in Sources */,
+				7DC1D1C81ABCFE8500D922C8 /* JHWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

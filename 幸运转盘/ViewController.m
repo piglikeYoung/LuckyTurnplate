@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "JHWheel.h"
 
 @interface ViewController ()
+- (IBAction)start:(UIButton *)sender;
+- (IBAction)stop:(UIButton *)sender;
+
+@property (weak , nonatomic) JHWheel *wheel;
 
 @end
 
@@ -16,12 +21,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    JHWheel *wheel = [JHWheel wheel];
+    wheel.center = CGPointMake(self.view.frame.size.width * 0.5, self.view.frame.size.height * 0.5);
+    
+    [self.view addSubview:wheel];
+    
+    self.wheel = wheel;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)start:(UIButton *)sender {
+    
+    [self.wheel startRotating];
 }
 
+- (IBAction)stop:(UIButton *)sender {
+    
+    [self.wheel stopRotating];
+}
 @end
